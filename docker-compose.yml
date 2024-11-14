@@ -1,0 +1,12 @@
+services:
+
+  effective-mobile:
+    container_name: spring-unik
+    image: postgres
+    environment:
+      POSTGRES_DB: unik
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+    ports:
+      - "3333:5432"
