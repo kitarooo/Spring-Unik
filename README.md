@@ -47,15 +47,3 @@ In both cases, you need Docker Desktop already installed
 4) Once the database has been successfully started, run the project locally
 
 5) Documentation at url:http://localhost:8080/documentation/
-
-# Docker 
-
-1) As I pointed out earlier - you need Docker Desktop installed on your computer
-
-2) Execute the above commands: copy the repository to your directory, open in IDEA
-
-3) Go to the dev branch
-
-4) In the terminal, type the command: docker-compose up -d
-
-5) Test the application in Postman
